@@ -1,0 +1,144 @@
+body{font-family: 'Noto Sans', sans-serif;
+margin: 0;}
+.clear{overflow: hidden;}
+.header-area {
+	background-image: url("images/header-bg.png");
+	background-position: left;
+	background-repeat: round;
+	padding-bottom: 23%;
+}
+#anchor{
+	text-decoration: none;
+	background-image: linear-gradient(60deg,#74165F ,#D980CC);
+	padding: 4px;
+	color: #FFEDD5;
+	border-radius: 4px;
+}
+.half-width {
+	width: 36%;
+	float: left;
+}
+.left-side {
+	margin-left: 14%;
+	margin-top: 12%;
+	padding-top: 12%;
+}
+.right-side {
+	padding-top: 20%;
+	margin-left: -6px;
+}
+.text-higtlight {
+	color: #EC7600;
+	font-size: 47px;
+	font-family: 'Parisienn';
+	margin: 0px 0px 45px;
+}
+.half-width img {
+	width: 100%;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+	background-position:left;
+	background-repeat:round;
+	padding-bottom: 23%;
+}
+.left-image {
+	margin-left: 21%;
+	padding-top: 15%;
+	margin-bottom: -7%;
+}
+.right-text {
+	margin-top: 20%;
+	margin-left: 4%;
+}
+.latest-work-area {
+	margin: 3% 0%;
+	background-image: url("images/latest-work-bg.png");
+	background-position: bottom;
+	background-repeat:round;
+	padding-bottom: 23%;
+	background-position: inherit;
+}
+.latest-work-area img {
+	width: 30%;
+	float: left;
+	margin-left: 2.5%;
+}
+.images-area {
+	padding: 0% 5%;
+	margin-top: 9%;
+}
+.center-text {
+	text-align: center;
+	margin-top: 8%;
+	display: block;
+}
+.footer-area{	margin: 3% 0%;
+	background-image: url("images/footer-bg.png");
+	background-position: bottom;
+	background-repeat:round;
+	padding-bottom: 23%;
+	background-position: inherit;}
+.client-name {
+	text-align: center;
+}
+.comment {
+	text-align: center;
+	margin: 3% 37% 6% 37%;
+}
+.client {
+	text-align: center;
+	margin-bottom: 6%;
+}
+.contact-area {
+	background: #C856D1;
+	margin: 0% 28%;
+	border-radius: 2%;
+	box-shadow: 10px 10px 33px #4B0054;
+	margin-top: 15%;
+	padding-bottom: 3%;
+}
+.contact-area h3 {
+	text-align: center;
+	font-size: 24px;
+}
+input[type="text"]{width:200px;
+}
+input:focus{
+  font-size:15px;
+ }
+.footerbottom {
+	background: #999;
+	padding-bottom: 10%;
+}
+
+.footerbottom-left {
+	float: left;
+	width: 30%;
+}
+.footerbottom-middle {
+	float: left;
+	width: 27%;
+	margin-left: 13%;
+}
+.footerbottom-right {
+	float: right;
+	width: 17%;
+}
+
+ul li a:hover {
+    background:#C856D1;
+    color: azure;
+}
+ul li {
+	list-style: none;
+	padding-bottom: 2px;
+	margin: 1% 53% 1% 0%;
+	padding-bottom: 3%;
+}
+ul li a{text-decoration: none;}
+.copyright {
+	background: #999;
+	text-align: center;
+	color: #ffff;
+}
